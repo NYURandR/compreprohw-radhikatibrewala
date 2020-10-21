@@ -25,8 +25,13 @@ To add a chunk either click on the green Insert button and choose R or hit Comma
 
 2) Please describe one of the ways that Wilson et. al. suggest is a good practice for computational reproducibility and how a tool like R can be used. Write your answer below.
 
+For data analysis (or even pre-processing), R can be a useful tool. In R, we can use practices to generate readable, reusable and testable code. By maintaining clean scripts that have comments regarding every block of code (i.e what is it doing), having a README for the project folder that states what modules and dependencies are needed, and frequently committing changes using a version control software (like git) - all these help maintain clean reproducible data analysis practices. Another thing that I like doing is keeping scripts short by generating more function files and calling on those from main scripts.
 
 3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it. 
+```{r}
+(4^13)^(1/2)
+
+```
 
 
 4) Push this homework to the GitHub repository for the homework. 
